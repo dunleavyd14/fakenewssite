@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Fake News Detector</a>
+          <a class="navbar-brand" href="#">Fake News Finder</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -42,11 +42,17 @@
     </nav>
 
     <div class="page-header text-center">
-  		<h1><img width = "100" height = "100" src="imgs/news.png"> Fake News Finder</h1>
+  		<h1 id = "title"><img width = "100" height = "100" src="imgs/news.png"> Fake News Finder</h1>
 	</div>
+	<form>
+	<div class="form-group" id = "article-text-wrapper">
+    	<label for="exampleFormControlTextarea1">Paste Article Text Here</label>
+    	<textarea class="form-control" id="article-text" rows="15"></textarea>
+    	<button class = "btn" id = "article-text-submit">Analyze</button>
+  	</div>
+  	</form>
 
-
-    <h1></h1>
+    
 	</body>
 	
 

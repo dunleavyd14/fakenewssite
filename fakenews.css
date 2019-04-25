@@ -1,7 +1,23 @@
 h1 {
 	font-family: 'IM Fell English', serif;
 	color: black;
-	font-size: 100;
+	font-size: 64pt;
 	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
+#article-text-wrapper {
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+#article-text-wrapper label {
+	float: left;
+}
+
+#article-text-submit {
+	
+	margin-top: 20px;
+}
