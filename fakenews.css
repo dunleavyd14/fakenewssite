@@ -17,7 +17,8 @@ h1 {
 	float: left;
 }
 
-#article-text-submit {
+#article-text-submit, #article-text-clear {
 	
 	margin-top: 20px;
+	margin-left: 10px;
 }
